@@ -1,0 +1,4 @@
+- view is compose here
+- separating UI into components  
+- composables r resuable
+- to define UI we just write fxns in kotlin, annotate the fxns in components

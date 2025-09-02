@@ -1,0 +1,2 @@
+-  https://wiki.python.org/moin/TimeComplexity 
+- ![[Pasted image 20250706125907.png]]

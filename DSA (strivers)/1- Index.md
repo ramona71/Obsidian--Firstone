@@ -1,0 +1,12 @@
+- [[Cpp-Basic]]
+- [[Basic Maths]]
+- [[Recursion2]]
+- [[Arrays]]
+- [[Strings]]
+- [[DP]]
+- 
+- 
+- [[Find tf is wrong with them]]
+- [[Random important fxns]]
+- [[Basics and important faults n definitions]]
+- 

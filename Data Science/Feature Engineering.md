@@ -1,0 +1,7 @@
+- MCAR : missing completely at random -> data is just missing , no particular reason
+	- unknowingly, or some error occured
+- MAR: missing at random  -> missing cuz of some reason
+	- some people r not comfortable telling answers to some questions
+		- men about salary, women about weight etc
+- MNAR : missing not at random -> missing cuz of specific reason
+	- poor people mention income but rich won't

@@ -1,0 +1,5 @@
+- new classes from existing classes
+- reuse data and methods and can also tweak them without changing og classes
+- for ex
+	- ![[Pasted image 20250601162029.png]]
+- 

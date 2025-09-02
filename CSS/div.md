@@ -1,0 +1,2 @@
+- invinsible box/ container to keep content in middle
+- div by default have width of 100px, decrease the width, so they appear next to each other

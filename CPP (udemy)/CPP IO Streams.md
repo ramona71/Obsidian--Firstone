@@ -1,0 +1,13 @@
+- Stream- interface that's independent from actual device
+	- sequence of bytes
+	- ![[Pasted image 20250623081007.png]]
+- we can code to stream and not worry which device is connected to it
+- COMMON STREAM HEADERS
+	- iostream
+	- fstream
+	- iomanip
+	- ![[Pasted image 20250623081054.png]]
+	- ![[Pasted image 20250623081135.png]]
+	- ![[Pasted image 20250623081224.png]]
+	- cin, cout - buffer streams, mean won't execute till user presses 'Enter' on keyboard
+	- 

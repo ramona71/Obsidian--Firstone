@@ -1,0 +1,3 @@
+- don't wanna study
+- my attention is dogshit
+- gotta change the inputs first so i can avoid the brain fog

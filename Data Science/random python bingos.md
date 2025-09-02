@@ -1,0 +1,1 @@
+- The `dir()` function _returns all properties and methods of the specified object_, without the values 

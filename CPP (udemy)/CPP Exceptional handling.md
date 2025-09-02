@@ -1,0 +1,12 @@
+- lowkey debated af topic
+- for extraordinary situations
+	- either deal/ terminate the program
+- used only for synchronous code, not for async code 
+- ![[Pasted image 20250605110312.png]]
+- exception
+	- obj/ primitive type that signals an error occurred
+- throw exception 
+	- throwing to another part of code to deal with exception
+- catch exception (handle it)
+	- either showing error message/ code to deal with it/ terminate the program/ recover and continue
+- 

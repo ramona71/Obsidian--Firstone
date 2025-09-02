@@ -1,0 +1,18 @@
+- requirements for backend also c/a server side
+	- server
+	- application - logic 
+	- Database
+- like in restaurant , 
+	- tables and menu- frontend,
+	- kitchen- backend(server), 
+	- pantry- database
+- When application don't know how to respond to a req, it sends back invalid response (404 status code)
+- normally when we send req, the server sends the html and it gets rendered on our website, so we can use just github to store those html files and run a webpage
+- Backend - doesn't really matter which one to use as long as it work
+	- java
+	- php
+	- ruby
+	- c#
+	- python
+	- js
+- we're using js - node framework

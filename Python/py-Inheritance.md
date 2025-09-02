@@ -1,0 +1,21 @@
+- class inherits attributes and methods of another class
+- reusability and extensibility
+- `class Child (Parent)`
+![[Pasted image 20250830140415.png]]
+```python
+class Animal:
+    def __init__(self, name):
+        self.name=name
+        self.is_alive=True     #another type of variable
+    def eat(self):
+        print(f"{self.name} is eating")
+  
+    def sleep(self):
+        print(f"{self.name} is sleeping")
+# even if they don't have their own attributes and methods , they can still use the parents'
+class Dog(Animal):
+    pass              
+  
+class Cat(Animal):
+    pass
+```

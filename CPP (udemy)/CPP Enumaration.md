@@ -1,0 +1,18 @@
+- `enum` keyword
+- datatypes, named integral constants c/a `enums`  (ts like dict vro)
+- user defined datatype , models a set of constant integral values
+- magic no.s -> unnamed numerical constants-> low readability
+- below images
+	- does the code make any sense?
+	- ![[Pasted image 20250402133507.png]]
+	- now look at this
+	- ![[Pasted image 20250402133539.png]]
+	- data type so can define fxns based on it
+	- ![[Pasted image 20250402133826.png]]
+	- does not compile if wrong states are used, eliminates mistakes
+# Types
+- unscoped enumerations- doesn't require name qualification 
+	- accessed throughout program
+- scoped enumerations - require name qualification 
+	- accessed only using scope resolution operator
+- 

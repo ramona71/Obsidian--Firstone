@@ -1,0 +1,234 @@
+{
+  "main": {
+    "id": "f527e4e2e83ef590",
+    "type": "split",
+    "children": [
+      {
+        "id": "72d966233963bb8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e5b3422c1082bed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/1 Python.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1 Python"
+            }
+          },
+          {
+            "id": "3fb46a19febf37cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GIT/Git basics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Git basics"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0606837c76b76604",
+    "type": "split",
+    "children": [
+      {
+        "id": "211bc031b0d6e246",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "88a75d1f555e47fc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "62f936cdea12f699",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6314e1491a743e2e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "bcec702ee33d3035",
+    "type": "split",
+    "children": [
+      {
+        "id": "469c75cae0d63d01",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5a42bd1ae21b5986",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DSA/Array-BinaryOperations.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Array-BinaryOperations"
+            }
+          },
+          {
+            "id": "074991b4d1469c4d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "DSA/Array-BinaryOperations.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Array-BinaryOperations"
+            }
+          },
+          {
+            "id": "d73078f818f732bd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b3fffb8e90392187",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "DSA/Array-BinaryOperations.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Array-BinaryOperations"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "omnisearch:Omnisearch": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "3fb46a19febf37cd",
+  "lastOpenFiles": [
+    "GIT/1 Git Index.md",
+    "Python/1 Python.md",
+    "Python/Arithmetic stuff.md",
+    "Python/Lists, Set , Tuple.md",
+    "Python/Control statements.md",
+    "Python/Lists, Sets, Tuple.md",
+    "Python/Inbuilt fxns and how to use them.md",
+    "Python/Loops.md",
+    "Python/Countdown timer - time library.md",
+    "Python/py-strings.md",
+    "Python/Pasted image 20250901135918.png",
+    "Data Science/1 Index DS.md",
+    "Python/P-Strings.md",
+    "Python/Logical operators.md",
+    "Python/py-Inheritance.md",
+    "Python/Pasted image 20250830140415.png",
+    "Python/py- OOPS.md",
+    "Python/Pasted image 20250830135303.png",
+    "Python/Pasted image 20250830135246.png",
+    "Data Science/OOPS.md",
+    "Python/Random fun stuff.md",
+    "Python/Basics.md",
+    "Python/Pasted image 20250830121306.png",
+    "Python/Pasted image 20250830121232.png",
+    "Data Science/Numpy.md",
+    "DSA- Python/Arraysss.md",
+    "ML/CLass 1.md",
+    "ML/Machine Learning.md",
+    "Data Science/Docker.md",
+    "Data Science/Flask framework- basics.md",
+    "DSA- Python/All leetcode solved so far.md",
+    "DSA- Python/1- Index.md",
+    "DSA- Python/Pasted image 20250823182529.png",
+    "DSA- Python/Pasted image 20250823182516.png",
+    "DSA- Python/Pasted image 20250823182455.png",
+    "DSA- Python/Pasted image 20250706125907.png",
+    "DSA- Python",
+    "Data Science",
+    "GIT",
+    "CPP I",
+    "Z writing",
+    "Z idk",
+    "React Native",
+    "Tweaking",
+    "Untitled.canvas",
+    "React",
+    "DSA (strivers)"
+  ]
+}
