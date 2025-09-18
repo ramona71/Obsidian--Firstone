@@ -10,6 +10,6 @@
 - 
 
 # Databases
-- [[SQL]]
+- [[SQL - Apna College]]
 - [[SQL - Angela]]
 - 

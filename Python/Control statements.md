@@ -117,3 +117,29 @@ print("even" if num>0 and num%2==0 else "odd")
 result= "Even" if num%2==0 else "odd"
 min_no= a if a<b else b
 ```
+
+# Match Case (Switch)
+- cleaner compared to shit tons if else
+- syntax is
+```python
+match variable:
+	case value_of_var:   # can add multiple with |, & etc
+		block
+	case val2:
+		block
+	case _:        # default case
+		block
+# ex
+def day_of_week(day):
+    match day:           
+        case 1:
+            return "It's Sunday"
+        case 2:
+            return "it's Monday"
+        case 3 | 4 :
+            return "It's Tuesday / Wednesday"
+        case _:                         # default case
+            return "Not Valid"
+  
+print(day_of_week(2))
+```

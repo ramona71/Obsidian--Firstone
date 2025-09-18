@@ -14,8 +14,20 @@ class Animal:
         print(f"{self.name} is sleeping")
 # even if they don't have their own attributes and methods , they can still use the parents'
 class Dog(Animal):
-    pass              
+    def bark(self):
+        print(f"{self.name} is barking")        
   
 class Cat(Animal):
     pass
+  
+dog1=Dog("Kory")
+dog1.bark()
+dog1.sleep()
 ```
+# Multiple Inheritance
+- child inherits from more than one class `Child( A , B )`
+# Multi Level Inheritance
+- inherit from a parent which inherits from another parent
+	- C(B) <- B(A)<- A
+# Super
+- 

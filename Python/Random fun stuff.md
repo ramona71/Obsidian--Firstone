@@ -21,3 +21,6 @@
 ```
 - for superscript
 	- ![[Pasted image 20250830121232.png]]   ![[Pasted image 20250830121306.png]]
+```python
+print("1", "2", "3", sep="- ")   # separates each with -
+```

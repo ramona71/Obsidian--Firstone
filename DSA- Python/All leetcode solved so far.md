@@ -1,3 +1,4 @@
 - [[Arraysss]]
 - [[Linked listss]]
+- [[Doubly LL]]
 - 

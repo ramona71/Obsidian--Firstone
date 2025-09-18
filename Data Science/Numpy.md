@@ -7,12 +7,12 @@ import numpy as np
 
 #create array
 arr1= np.array([5,6,8,42,3,8])
-arr2.reshape((1,5))            # 1 row , 5 colomns
   
 arr1= np.array([1,2,5,4,8])
 print(arr1)
-print(type(arr1))
-print(arr1.shape)
+print(type(arr1))            # numpy.ndarray (it's not a list)
+print(arr1.shape)            # (5,) -> single dimension array
+arr2.reshape((1,5))          # 1 row , 5 colomns (2d array)
   
 np.arange(0,10)
 np.arange(0,10,2)
@@ -20,8 +20,8 @@ np.arange(0,10).reshape(5,2)       # 1-d to 2d array transfomation
 
 np.ones((3,4))   # matrix of '1'
 np.eye(3)        # identity matrix - dimention 3x3
-arr= np.array([[1,5,6,8], [9,6,4,2]])
 
+arr= np.array([[1,5,6,8], [9,6,4,2]])
 print(arr)
 print(arr.shape)       # dimentions (rows and coloms) (2,3)
 print(arr.ndim)        # dimentions (rows)  2
@@ -45,6 +45,48 @@ print(np.exp(arr))          # e raised to power of element of array
 print(np.sin(arr))
 print(np.log(arr))
 
+# slicing and indexing of arrays
+
+arr=np.array([[1,2,3,4,5],
+              [6,7,8,9,10],
+              [11,12,13,14,45]])
+print(arr)
+arr[0][3] =15       # modification
+arr[1:, 2:]
+print(arr[0:2, 2:])
+arr[1:] = 100       # modify a slice of elements
+
+```
+## normalization
+- some methods
+```python
+data = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+  
+# Mean
+mean = np.mean(data)
+print("Mean:", mean)
+  
+# Median
+median = np.median(data)
+print("Median:", median)
+  
+# Standard deviation
+std_dev = np.std(data)
+print("Standard Deviation:", std_dev)
+  
+# Variance
+variance = np.var(data)
+print("Variance:", variance)
+```
+- normalization
+```python
+# change data to have a mean of 0 and standard deviation of 1
+  
+arr= np.array([1,5,6,8])
+mean=np.mean(arr)
+std_dev= np.std(arr)
+normalization= (arr-mean)//std_dev
+print(normalization)
 ```
 ### some differences
 In Python, particularly within the context of NumPy arrays or Pandas Series/DataFrames, `size` and `itemsize` represent distinct attributes related to data dimensions and memory allocation.

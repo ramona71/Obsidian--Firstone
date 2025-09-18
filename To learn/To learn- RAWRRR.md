@@ -1,4 +1,0 @@
-- version control system? for bugs??
-- to search a file
-- to search a piece of code
-- plugins

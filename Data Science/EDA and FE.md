@@ -1,0 +1,6 @@
+- Exploratory Data Analysis
+- cleaning up the data , converting it to better numerical format and getting it ready for training ml model
+- to be aware of missing values, duplicates data points, the correlation, different kind of plots and charts
+- [[Red wine EDA]]
+- [[Flight Price Prediction]]
+- 

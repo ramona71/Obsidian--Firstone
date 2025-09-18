@@ -1,2 +1,0 @@
-- I want to use science to overcome fantasy
-- a person who praises another person is two faced?

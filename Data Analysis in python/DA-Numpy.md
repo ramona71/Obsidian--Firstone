@@ -1,6 +1,0 @@
-- for scientific/numeric computing
-- Numpy is not that popular but pandas and matplotlib depends on this indirectly so we need to understand it
-- U can even control the no.of bits a integer should take
-- an integer can take 20 bytes in python , which we can decrease to 8 bits using numpy
-- in python, list is not contiguous. we can use numpy to create them in contiguous and also control the size of integer
-- 

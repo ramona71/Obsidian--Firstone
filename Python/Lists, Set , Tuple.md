@@ -3,6 +3,12 @@
 - list- `[]` ordered and changeable . Duplicates r allowed
 - set - `{}` unordered and immutable (adding/removing is allowed) . No duplicates
 - Tuple - `()` ordered and unchangeable .Duplicates are allowed . FASTER
+
+- to know more about these do 
+```python
+print(help("tuple"))
+print(dir("list"))
+```
 # Lists
 - https://docs.python.org/3/tutorial/datastructures.html
 - https://developers.google.com/edu/python/lists#range
@@ -69,9 +75,11 @@ for item in list:   #iterate using for loop
 - unordered
 - immutable (can add/ remove) 
 - No duplicates
+- union, intersection, difference, symmetric difference
 ```python
 man= {"Jon", "Ken" , "Barbie", "Barbie"}  #the other Barbie will be removed automatically
-
+woman=set([1,5,6])           # another way to make a set (by type casting)
+empty_set = set()
 print(man)                     # won't be in same order everytime we print
 print(dir(man))
 print(help(man))
@@ -81,11 +89,33 @@ print("pinapple" in man)
   
 print(man[0])   #error  # can't use indexing ,cuz unordered (not subscriptable)
 man.add("pinapple")
-man.pop()         #random removal
+man.remove("pinapple")     # gives error if the element is not present
+man.discard('pinapple')    # doens't give error if element is not present
+a=man.pop()                  #random removal  (set so , no order)
 man.clear()
 
-for item in my_set:    # iterate using for loop
+# in -> set membership test
+for item in my_set:     # iterate using for loop
 	print(item)
+```
+### Union, Intersection etc
+```python
+set1={1,5,6,8,7,9,3}
+set2={10,4,2,8}
+union_set=set1.union(set2)
+print(union_set)
+intersection_set=set1.intersection(set2)
+print(intersection_set)
+set1.intersection_update(set2)   # set1 has only intersection elements
+print(set1)
+  
+print(set1.difference(set2))   # does't change set1 unleass assigned
+print(set1.symmetric_difference(set2))  #unique elements from both sets are combined
+```
+### Set methods
+```python
+print(set1.issubset(set2))    # True or FAlse
+print(set1.issuperset(set2))
 ```
 # Tuple
 - ordered 
@@ -112,4 +142,33 @@ for names in man:
   
 print(man.index("Barbie"))
 print(man.count("Mona"))
+```
+# 2D lists
+- matrices vro they're just matrices
+```python
+# two ways to write them
+fruits= ["apple", "orange", "cocounut"]
+vegetables =["carrots", "potatos"]
+groceries =[fruits, vegetables]
+  
+# or
+groceries= [["apple", "orange", "cocounut"],["carrots", "potatos"]]
+groceries[1]   # prints entire row
+groceries[0][2]
+  
+for collection in groceries:
+    for item in collection:
+        print(item)
+```
+# List Comprehension
+- compact way to create lists
+- `[exprssion for value in iterable if condition]`
+```python
+ double= [i+3 for i in range(10) if i%2==0]
+print(double)
+
+fruits= ["apple", "orange", "cocounut"]
+fruits= [fruit.upper() for fruit in fruits]
+#or
+fruits= [fruit.upper() for fruit in ["apple", "orange", "cocounut"]]
 ```

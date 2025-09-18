@@ -8,35 +8,119 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7e5b3422c1082bed",
+            "id": "ff151f8886b7c2dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/1 Python.md",
+                "file": "DSA- Python/All neetcode 150.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1 Python"
+              "title": "All neetcode 150"
             }
           },
           {
-            "id": "3fb46a19febf37cd",
+            "id": "f894abb7755571ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GIT/Git basics.md",
+                "file": "DSA- Python/Neetcode - errors.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git basics"
+              "title": "Neetcode - errors"
+            }
+          },
+          {
+            "id": "c99a90c2cece9f3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DSA- Python/Lessons and shit- neetcode 150.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lessons and shit- neetcode 150"
+            }
+          },
+          {
+            "id": "72aae2a82bdcd154",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/SQL_Luke- SubQueries n Union.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQL_Luke- SubQueries n Union"
+            }
+          },
+          {
+            "id": "5c9bf18dce572c02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/SQL-50-Lessons.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQL-50-Lessons"
+            }
+          },
+          {
+            "id": "72be1e1713c293bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/SQL-50.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQL-50"
+            }
+          },
+          {
+            "id": "68f121d5593e9c2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Science/Logistic Regression.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Logistic Regression"
+            }
+          },
+          {
+            "id": "854dcc048f1c6868",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Science/Simple Linear Regression.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Simple Linear Regression"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -68,7 +152,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": " ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -172,7 +256,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "bases:Create new base": false,
-      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -181,54 +264,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3fb46a19febf37cd",
+  "active": "72aae2a82bdcd154",
   "lastOpenFiles": [
-    "GIT/1 Git Index.md",
-    "Python/1 Python.md",
-    "Python/Arithmetic stuff.md",
-    "Python/Lists, Set , Tuple.md",
-    "Python/Control statements.md",
-    "Python/Lists, Sets, Tuple.md",
-    "Python/Inbuilt fxns and how to use them.md",
-    "Python/Loops.md",
-    "Python/Countdown timer - time library.md",
-    "Python/py-strings.md",
-    "Python/Pasted image 20250901135918.png",
+    "Data Science/Simple Linear Regression.md",
+    "SQL/SQL_Luke- SubQueries n Union.md",
+    "SQL/Index.md",
+    "SQL/SQL- Luke- Queries.md",
+    "SQL/SQL-50-Lessons.md",
+    "SQL/SQL-50.md",
+    "Data Science/Logistic Regression.md",
+    "Data Science/Data Encoding.md",
+    "Data Science/Pasted image 20250918115021.png",
+    "Data Science/Pasted image 20250918110325.png",
+    "Data Science/Pasted image 20250918110050.png",
+    "Data Science/Pasted image 20250918110000.png",
+    "Data Science/Pasted image 20250918105702.png",
+    "Data Science/Pasted image 20250918105232.png",
     "Data Science/1 Index DS.md",
-    "Python/P-Strings.md",
-    "Python/Logical operators.md",
-    "Python/py-Inheritance.md",
-    "Python/Pasted image 20250830140415.png",
-    "Python/py- OOPS.md",
-    "Python/Pasted image 20250830135303.png",
-    "Python/Pasted image 20250830135246.png",
-    "Data Science/OOPS.md",
-    "Python/Random fun stuff.md",
-    "Python/Basics.md",
-    "Python/Pasted image 20250830121306.png",
-    "Python/Pasted image 20250830121232.png",
-    "Data Science/Numpy.md",
-    "DSA- Python/Arraysss.md",
-    "ML/CLass 1.md",
-    "ML/Machine Learning.md",
-    "Data Science/Docker.md",
+    "Data Science/Pasted image 20250918104453.png",
+    "Data Science/Pasted image 20250918102907.png",
+    "Data Science/ML-Intro.md",
+    "DSA- Python/Lessons and shit- neetcode 150.md",
+    "Data Science/random python bingos.md",
+    "Data Science/Handling Imbalanced dataset using SMOTE.md",
+    "Data Science/Feature Engineering.md",
+    "Data Science/Pasted image 20250917223455.png",
+    "Data Science/Pasted image 20250917222434.png",
+    "Data Science/Box plot using Python.md",
+    "DSA- Python/All neetcode 150.md",
+    "SQL/SQL - Loading DataBase PostGresql.md",
+    "DSA- Python/Neetcode - errors.md",
+    "SQL/SQL- Luke - Intro.md",
+    "SQL/SQL- Luke- Tables and Datatypes.md",
     "Data Science/Flask framework- basics.md",
-    "DSA- Python/All leetcode solved so far.md",
-    "DSA- Python/1- Index.md",
-    "DSA- Python/Pasted image 20250823182529.png",
-    "DSA- Python/Pasted image 20250823182516.png",
-    "DSA- Python/Pasted image 20250823182455.png",
-    "DSA- Python/Pasted image 20250706125907.png",
+    "Data Science/OOPS.md",
+    "SQL/SQL - Apna College.md",
+    "Data Science/Seaborn.md",
+    "Data Science/Matplotlib.md",
+    "Power BI",
     "DSA- Python",
     "Data Science",
     "GIT",
     "CPP I",
-    "Z writing",
+    "Tweaking/Z writing",
     "Z idk",
     "React Native",
     "Tweaking",
     "Untitled.canvas",
-    "React",
-    "DSA (strivers)"
+    "React"
   ]
 }
